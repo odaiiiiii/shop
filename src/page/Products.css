@@ -1,0 +1,65 @@
+.cards{
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes moveBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100px 100px; }
+}
+
+.all-cards{
+
+    background: #f0f0f0; /* خلفية فاتحة */
+    background-image: radial-gradient(circle, #c8c2c2 1px, transparent 1px); /* دوائر بلون أفتح */
+    background-size: 30px 30px;
+    animation: moveBackground 10s linear infinite;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+.cards-bg{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+    padding-top: 1rem;
+    padding-top: 1rem;
+    color: white;
+    padding: 0 10px;
+}
+
+ .title{
+    text-align: center ;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+
+.border{
+    border: 1px solid red;
+}
+
+
+
+/*              PRODUCT                         */
+
+.single-cart{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*     ==     PRODUCT           ===          */
